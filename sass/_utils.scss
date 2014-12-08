@@ -1,0 +1,7 @@
+
+.status {
+	@include media-object($margin_media_element_status);
+}
+.comment {
+	@include media-object($margin_media_element_status);
+}

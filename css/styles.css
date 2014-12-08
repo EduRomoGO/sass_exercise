@@ -1,0 +1,89 @@
+/* ====== media ====== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive; }
+
+li {
+  list-style: none; }
+
+/*------ Clear Fix ------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* End hide from IE-mac */
+/*----------------------*/
+.media .img img, .media .imgExt img {
+  max-width: 200px; }
+
+.status {
+  border: solid 2px red; }
+
+.comment {
+  border: solid 2px blue; }
+
+.bd .media .img img {
+  max-width: 100px; }
+
+.status {
+  margin: 10px; }
+  .status .img {
+    float: left;
+    margin-right: 10px; }
+  .status .imgExt {
+    float: right;
+    margin-left: 10px; }
+  .status .img img, .status .imgExt img {
+    display: block; }
+  .status .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1; }
+
+.comment {
+  margin: 10px; }
+  .comment .img {
+    float: left;
+    margin-right: 10px; }
+  .comment .imgExt {
+    float: right;
+    margin-left: 10px; }
+  .comment .img img, .comment .imgExt img {
+    display: block; }
+  .comment .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,26 @@
+/* ====== media ====== */
+
+@mixin media-object($px){
+
+		margin: $px;
+
+		.img {
+			float:left; margin-right: 10px;
+		}
+
+		.imgExt {
+			float:right; margin-left: 10px;
+		}
+
+		.img, .imgExt {
+			img {
+				display:block;
+			}
+		}	
+
+	.bd {
+			overflow:hidden; 
+			_overflow:visible; 
+			zoom:1;
+	}
+}
