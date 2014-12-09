@@ -57,7 +57,10 @@ li {
   max-width: 100px; }
 
 .status {
-  margin: 10px; }
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1;
+  margin: 20px; }
   .status .img {
     float: left;
     margin-right: 10px; }
@@ -72,7 +75,10 @@ li {
     zoom: 1; }
 
 .comment {
-  margin: 10px; }
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1;
+  margin: 20px; }
   .comment .img {
     float: left;
     margin-right: 10px; }
